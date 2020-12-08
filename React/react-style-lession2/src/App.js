@@ -1,17 +1,13 @@
 import './App.css';
-import {ThemeProvider} from 'react-jss';
-import MyGrid from './components/grid-layout';
+import Figma from './components/figma';
 
-const theme = {
-  colorPrimary: 'green'
-}
 
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <MyGrid/>
-    </ThemeProvider>
+   
+      <Figma></Figma>
+   
   );
 }
 

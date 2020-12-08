@@ -1,0 +1,19 @@
+.Container {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  /* Gray / gray-1 */
+  background: #ffffff;
+  /* Gray / gray-5 */
+  border: 1px solid #d9d9d9;
+  width: 100%;
+}
+.Header {
+  position: absolute;
+  width: 1240px;
+  height: 64px;
+  left: 200px;
+  top: 0px;
+}
