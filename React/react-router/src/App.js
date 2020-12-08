@@ -1,10 +1,10 @@
 import './App.css';
-import NestedRouter from './routers/NestedRouter';
+import HomeRouter from './routers/HomeRouter';
 
 function App() {
   return (
     <div className="App">
-      <NestedRouter/>      
+      <HomeRouter/>      
     </div>
   );
 }
